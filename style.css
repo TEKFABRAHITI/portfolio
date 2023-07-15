@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+   
+}
+header{
+   
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    
+    width: 100%;
+    padding:30px;
+   
+}
+.header_li{
+list-style: none;
+}
+.Aboutme_blocgeneral{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    height:700px;
+
+
+   
+}
+#Aboutme_image-moi {
+    width:80%;
+    border-radius: 300px;
+    padding: 40px;
+    
+}
+
+btn{
+    width: 100%;
+    position: relative;
+    left: 150px;
+  }
+  button{
+    outline: none;
+    border:none;
+    cursor:pointer;
+    font-size:25px;
+    font-weight:500px;
+    color: black;
+   
+    padding: 8px 14px;
+    margin:40px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px  rgb(0, 5, 0);
+    border-radius: 30px;
+  }
+  
+#texte{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin:50px;
+    font-family: oppins;
+}
+
+
+.reseaux{
+	font-size: 2rem;
+	width: 10px;
+	height: 10px;
+	padding: 15px 10px 5px 10px;
+	color:#FFF;
+	border: 2px solid #FFF;
+	border-radius: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+.texte_02{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin:50px;
+    font-family: oppins;
+  
+}
+
+/*  debut de code pour projet       */  
