@@ -1,95 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    padding: 0 40px;
+    font-family: 'Roboto', sans-serif;
+  }
+  h1, h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  
+ }
+  img{
+    border-radius: 20px;
+  }
+  header {
+    background-color: #a67665;
+    color: #fff;
+    height: 60px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+   
+  }
 
-*{
-    margin: 0;
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+    float: right ;
+    margin-right: 20px;
+  }
+
+  .menu-item {
+    list-style-type: none;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-   
-}
-header{
-   
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+  }
+
+  nav ul a {
+    color:#fff;
+    /* Remplacez "red" par la couleur de votre choix */
+    text-decoration: none;
+  }
+
+  .logo{
+    margin-left: 20px;
+    padding-top: 12px;
+    margin-bottom: -36px;
+    font-size: 30px;
+  }
+
+  .about_me {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: auto;
-    
-    width: 100%;
-    padding:30px;
-   
-}
-.header_li{
-list-style: none;
-}
-.Aboutme_blocgeneral{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  
-    height:700px;
+    background-color: #d99b66;
+    border-radius: 20px;
 
+  }
 
-   
-}
-#Aboutme_image-moi {
-    width:80%;
-    border-radius: 300px;
+  .about_me div {
     padding: 40px;
-    
-}
-
-btn{
-    width: 100%;
-    position: relative;
-    left: 150px;
   }
-  button{
-    outline: none;
-    border:none;
-    cursor:pointer;
-    font-size:25px;
-    font-weight:500px;
-    color: black;
+
+  .about_me img {
+    width: 200px;
+    height: 250px;
+    border-radius: 100px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+
+  .social img {
+    width: 25px;
+    height: 24px;
+  }
+
+  #projets {
+    gap: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    margin:20px;
+
+  }
+
+  #projets img {
+    width: 40vw;
+    height: 30vw;
+  }
+  #formation-expérience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: gray;
+    padding: 30px;
+    gap: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+  }
+  .souligné{
+    text-decoration: underline;
+  }
+  .formation,
+  .expérience {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    height: 236px;
+    border-radius: 20px;
    
-    padding: 8px 14px;
-    margin:40px 5px;
-    letter-spacing: 2px;
-    text-transform: capitalize;
-    box-shadow: 0 15px 10px  rgb(0, 5, 0);
-    border-radius: 30px;
+    @media screen and (max-width: 820px) {
+        height: 400px;
+      }
+  }
+  h2 {
+    text-align: center;
+  }
+  #loisirs {
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center; /* Centre verticalement les éléments */
+    
   }
   
-#texte{
-    display: flex;
-    flex-direction: column;
-    width:50%;
-    margin:50px;
-    font-family: oppins;
-}
-
-
-.reseaux{
-	font-size: 2rem;
-	width: 10px;
-	height: 10px;
-	padding: 15px 10px 5px 10px;
-	color:#FFF;
-	border: 2px solid #FFF;
-	border-radius: 50px;
-	text-align: center;
-	cursor: pointer;
-}
-.texte_02{
-    display: flex;
-    flex-direction: column;
-    width:50%;
-    margin:50px;
-    font-family: oppins;
+  .left-image,
+  .center-content,
+  .right-image {
+    flex: 1; /* Les éléments occupent une part égale de la largeur du conteneur */
+    text-align: center; /* Centre le contenu horizontalement */
   
-}
-
-/*  debut de code pour projet       */  
+  }
+  
+  .left-image img,
+  .right-image img {
+    width: 20vw; /* Taille des images */
+    height: 20vw;
+  }
+  
+  .center-content h2 {
+    margin: 0; /* Supprime les marges par défaut du titre */
+  }
+  
+  .bottom-images {
+    display: flex;
+    justify-content: center; /* Centre les images horizontalement */
+    margin-top: 25px; /* Espacement entre les images et le titre */
+  }
+  
+  .bottom-images img {
+    width: 20vw; /* Taille des images */
+    height: 20vw;
+    margin: 0 5px; /* Espacement horizontal entre les images */
+  }
