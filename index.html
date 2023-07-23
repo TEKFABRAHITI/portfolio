@@ -1,53 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Portfolio</title>
-        <style>
-            header {
-                background-color: #A67665;
-                color: #fff;
-                height: 60px;
-            }
-            nav ul {
-                display: flex;
-                gap: 20px;
-              }
+  <head>
+    <title>Portfolio</title>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" media="print">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" media="print">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-            nav li {
-                list-style-type: none;
-                padding: 0;
-              }
-             nav ul a {
-                color: red; /* Remplacez "red" par la couleur de votre choix */
-                text-decoration: none;
-              }
+  <body>
+    <header>
+      <div class="logo">Brahiti Tekfa</div>
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="#home">Home</a></li>
+          <li class="menu-item"><a href="#projets">Projets</a></li>
+          <li class="menu-item"><a href="#experience">Expérience</a></li>
+          <li class="menu-item"><a href="#loisirs">Loisirs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="about_me">
+        <div><img src="http://placekitten.com/200/300" /></div>
+        <div>
+          <h2> développeuse d'applications </h2>
+          <p>
+            Après mes études en marketing, j'ai décidé de me reconvertir dans le
+            milieu du numérique. Je suis actuellement en formation chez
+            DesCodeuses. Motivée et dynamique, je souhaite trouver un stage de 6
+            mois à partir de juillet 2023 qui me permettra d'évoluer, de gagner
+            en expérience et compéte
+          </p>
 
-        </style>
-    </head>
-    <body>
-        <header>
-            <div class="logo">Brahiti Tekfa</div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projet">Projet</a></li>
-                    <li><a href="#experience">Expérience</a></li>
-                    <li><a href="#loisirs">Loisirs</a></li>
-                  </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="home">
-                <img >
-                About me
-            </section>
-            <section id="projet">
-                Mes projets 
-                    <div
-            </section>
-        </main>
-    </body>
-    <script>
-
-    </script>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/tekfa-brahiti-78889b215/">
+              <img src="images/icons8-linkedin.svg" />
+            </a>
+            <a href="mailto:brahiti.tekfa@gmail.com">
+              <img src="images/icons8-gmail.svg" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="projets">
+        <img src="images/greenplante.png" />
+        <h2>Creation d'un site web</h2>
+        <h2>integration d'un chabot</h2>
+        <img src="images/Capture d’écran 2023-04-07 112202.png" />
+        <img src="images/photomaps.png" />
+        <h2>Ajout d'une carte interactive</h2>
+        <h2>Gestion de favoris</h2>
+        <img src="images/customisation.jpeg" />
+      </section>
+      <section id="formation-expérience">
+        <div class="formation">
+          <h2>Formation</h2>
+         
+          <p>
+            <span class="souligné">2023</span> - <strong>DesCodeuses Titre RNCP Niveau 6 (Bac+ 3/4)</strong> <em>Conceptrice
+            développeuse d’applications</em> - 1640 h 
+          </p><p>
+            <span class="souligné">2018</span> -  <strong> Abderrahman  Mira - Bejaia Master marketing des services</strong><em>( Centre ENIC-NARIC
+            FRANCE Equivalence de diplôme=master )</em>.
+          </p>
+        </div>
+        <div id="Experience" class="expérience">
+          <h2>Expérience</h2>
+          <p>
+                  <span class="souligné">2018-2019</span>  <strong>Hôtel Le Cristal Chargée de marketing </strong><em>Réaliser une étude
+            marketing Utiliser les outils bureautiques Mettre en place des
+            solutions d'amélioration de la performance</em> 
+          </p><p>
+            <span class="souligné">2016</span> <strong>Association "Le
+            croissant rouge" </strong><em>Membre bénévole Gérer les budget Animer des
+            activités culturelles et artistiques Enseigner, transmettre des
+            connaissances, développer des compétences</em>.
+          </p>
+        </div>
+      </section>
+      <section id="loisirs">
+        <div class="left-image">
+          <img src="images/Capture d’écran 2023-04-07 112202.png" alt="Photo 1">
+        </div>
+        <div class="center-content">
+          <h2>Loisirs</h2>
+          <div class="bottom-images">
+            <img src="images/received_297044414642669.jpeg" alt="Photo 3">
+            <img src="images/customisation.jpeg" alt="Photo 4">
+          </div>
+        </div>
+        <div class="right-image">
+          <img src="images/customisation.jpeg" alt="Photo 2">
+        </div>
+      </section>
+      
+    </main>
+  </body>
+  <script></script>
 </html>
