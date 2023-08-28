@@ -39,7 +39,12 @@
     </header>
     <main>
       <section id="home" class="about_me">
-        <div><img src="images/tekfa.jpg" /></div>
+        <div>
+          <picture>
+            <source srcset="images/tekfa.webp" type="image/webp">
+            <source srcset="images/tekfa.jpg" type="image/jpeg"> 
+            <img src="images/tekfa.jpg" alt="photo de Tekfa Brahiti"/></div>
+          </picture>
         <div>
           <h2>Développeuse d'application</h2>
           <p>
@@ -63,20 +68,24 @@
       <section id="projets">
         <figure class="hover-rotate">
           <picture>
-            <source media="(max-width: 799px)" srcset="images/greenplante_200.png" />
-            <source media="(min-width: 800px)" srcset="images/greenplante_436.png" />
+            <source type="image/webp" media="(max-width: 799px)" srcset="images/greenplante_200.webp" />
+            <source type="image/png" media="(max-width: 799px)" srcset="images/greenplante_200.png" />
+            <source type="image/webp" media="(min-width: 800px)" srcset="images/greenplante_436.webp" />
+            <source type="image/png" media="(min-width: 800px)" srcset="images/greenplante_436.png" />
             <img src="images/greenplante_346.png" alt="site de recyclage" />
           </picture>
         </figure>
         <h2>Creation d'un site web</h2>
         <h2>Integration d'un chabot</h2>
         <figure class="hover-rotate">
-          <img src="images/tisane-bio.png" />
+          <img src="https://placekitten.com/450/385" />
         </figure>
         <figure class="hover-rotate">
           <picture>
-            <source media="(max-width: 799px)" srcset="images/photomaps_200.png" />
-            <source media="(min-width: 800px)" srcset="images/photomaps_436.png" />
+            <source type="image/webp" media="(max-width: 799px)" srcset="images/photomaps_200.webp" />
+            <source type="image/png" media="(max-width: 799px)" srcset="images/photomaps_200.png" />
+            <source type="image/webp" media="(min-width: 800px)" srcset="images/photomaps_436.webp" />
+            <source type="image/png" media="(min-width: 800px)" srcset="images/photomaps_436.png" />
             <img src="images/photomaps_346.png" alt="localisation des evenements" />
           </picture>
         </figure>
@@ -84,8 +93,10 @@
         <h2>Gestion de favoris</h2>
         <figure class="hover-rotate">
           <picture>
-            <source media="(max-width: 799px)" srcset="images/favori_200.png" />
-            <source media="(min-width: 800px)" srcset="images/favori_436.png" />
+            <source type="image/webp" media="(max-width: 799px)" srcset="images/favori_200.webp" />
+            <source type="image/png" media="(max-width: 799px)" srcset="images/favori_200.png" />
+            <source type="image/webp" media="(min-width: 800px)" srcset="images/favori_436.webp" />
+            <source type="image/png" media="(min-width: 800px)" srcset="images/favori_436.png" />
             <img src="images/favori_346.png" alt="gestion des favoris" />
           </picture>
         </figure>
@@ -130,9 +141,11 @@
       <section id="loisirs">
         <div class="left-image">
           <picture>
-            <source media="(max-width: 799px)" srcset="images/tisane-bio_148.png" />
-            <source media="(min-width: 800px)" srcset="images/tisane-bio_346.png" />
-            <img src="images/tisane-bio_346.png" alt="tisane du jardin" />
+            <source type="image/webp" media="(max-width: 799px)" srcset="images/tisane-bio_148.webp" />
+            <source type="image/jpeg" media="(max-width: 799px)" srcset="images/tisane-bio_148.jpg" />
+            <source type="image/webp" media="(min-width: 800px)" srcset="images/tisane-bio_346.webp" />
+            <source type="image/jpeg" media="(min-width: 800px)" srcset="images/tisane-bio_346.jpg" />
+            <img src="images/tisane-bio_346.jpg" alt="tisane du jardin" />
           </picture>
         </div>
         <div class="center-content">
@@ -152,8 +165,10 @@
         </div>
         <div class="right-image">
           <picture>
-            <source media="(max-width: 799px)" srcset="images/grenade_148.jpeg" />
-            <source media="(min-width: 800px)" srcset="images/grenade_346.jpeg" />
+            <source type="image/webp" media="(max-width: 799px)" srcset="images/grenade_148.webp" />
+            <source type="image/jpeg" media="(max-width: 799px)" srcset="images/grenade_148.png" />
+            <source type="image/webp" media="(min-width: 800px)" srcset="images/grenade_346.webp" />
+            <source type="image/jpeg" media="(min-width: 800px)" srcset="images/grenade_346.png" />
             <img src="images/grenade_346.jpeg" alt="recolte de grenade du jardin" />
           </picture>
         </div>
