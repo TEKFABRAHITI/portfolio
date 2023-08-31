@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-body {
+html {
   font-family: "Roboto", sans-serif;
+
+}
+body {
   padding: 0 80px;
   min-width: 500px;
 
@@ -19,7 +22,7 @@ img {
 }
 
 header {
-  background-color: #a67665;
+  background-color: #6A4E39;
   color: #fff;
   height: 60px;
   border-radius: 2px;
@@ -136,34 +139,34 @@ h2 {
   text-align: center;
   border-radius: 20px;
   display: flex;
-  align-items: center; /* Centre verticalement les éléments */
+  align-items: center;
 }
 
 .left-image,
 .center-content,
 .right-image {
-  flex: 1; /* Les éléments occupent une part égale de la largeur du conteneur */
-  text-align: center; /* Centre le contenu horizontalement */
+  flex: 1; 
+  text-align: center;
 }
 
 .left-image img,
 .right-image img {
-  width: 18vw; /* Taille des images */
+  width: 18vw; 
   height: 18vw;
 }
 
 .center-content h2 {
-  margin: 0; /* Supprime les marges par défaut du titre */
+  margin: 0;
 }
 
 .bottom-images {
   display: flex;
-  justify-content: center; /* Centre les images horizontalement */
-  margin-top: 25px; /* Espacement entre les images et le titre */
+  justify-content: center;
+  margin-top: 25px; 
 }
 
 .bottom-images img {
-  width: 18vw; /* Taille des images */
+  width: 18vw; 
   height: 18vw;
-  margin: 0 20px; /* Espacement horizontal entre les images */
+  margin: 0 20px;
 }
